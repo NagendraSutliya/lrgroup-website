@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { useState } from 'react';
 
 const statsData = [
   { label: 'Years Experience', endValue: 10, suffix: '+' },
@@ -9,8 +8,6 @@ const statsData = [
 ];
 
 export default function StatsBanner() {
-  const [inView, setInView] = useState(false);
-
   return (
     <section className="relative bg-primary-dark text-white py-24 overflow-hidden">
       <div className="absolute inset-0 w-full h-full bg-[radial-gradient(circle_at_20%_50%,rgba(59,130,246,0.4)_0%,transparent_50%),radial-gradient(circle_at_80%_50%,rgba(220,38,38,0.3)_0%,transparent_50%)] z-0"></div>
@@ -21,7 +18,6 @@ export default function StatsBanner() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
-          onViewportEnter={() => setInView(true)}
           variants={{
             hidden: {},
             visible: { transition: { staggerChildren: 0.2 } }

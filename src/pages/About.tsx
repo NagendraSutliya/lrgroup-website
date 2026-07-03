@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { CreditCard, Coins, Banknote, MessageSquare, CreditCard as CreditCardLead, FileText, CheckSquare, ChevronRight, PhoneCall } from 'lucide-react';
-import { motion } from 'framer-motion';
 
 export default function About() {
   return (

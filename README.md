@@ -1,32 +1,61 @@
-# React + TypeScript + Vite
+# LR Group Corporate Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Welcome to the official front-end repository for the **LMRP Infotech Pvt Ltd (LR Group)** corporate website. This project is a modern, responsive, and high-performance multi-page application built to showcase enterprise software solutions, fintech API services, and the company's corporate identity.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Framework**: [React](https://reactjs.org/) (v18)
+- **Routing**: [React Router](https://reactrouter.com/) (v6)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
 
-## React Compiler
+## 📂 Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `/src/pages/` - Contains the primary page components (`Home.tsx`, `About.tsx`, `Team.tsx`, `Services.tsx`, `Products.tsx`, `Contact.tsx`).
+- `/src/components/` - Reusable UI components including `Navbar`, `Footer`, `TopBar`, and various layout sections.
+- `/public/` - Static assets including the site favicon and vector graphics.
+- `/src/index.css` - Global CSS definitions and Tailwind configuration.
 
-## Expanding the Oxlint configuration
+## 🛠️ Getting Started
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+### Prerequisites
+Ensure you have [Node.js](https://nodejs.org/) (v18 or higher) installed on your machine.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+### Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/NagendraSutliya/lrgroup-website.git
+   cd lrgroup-website
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+   The application will be running locally at `http://localhost:5173`.
+
+### Build for Production
+
+To create a highly optimized production build, run:
+```bash
+npm run build
 ```
+The compiled static assets will be output to the `/dist` directory, ready to be deployed to any static web host.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## ✨ Features
+
+- **Dynamic Navigation:** Multi-level dropdown menus for comprehensive routing.
+- **Responsive Layouts:** Fully fluid grids optimized for mobile, tablet, and desktop viewing.
+- **Micro-Animations:** Seamless page transitions and interactive hover states powered by Framer Motion.
+
+## 📄 License
+This project is proprietary software belonging to LMRP Infotech Pvt Ltd. All rights reserved.

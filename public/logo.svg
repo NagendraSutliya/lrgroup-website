@@ -1,0 +1,41 @@
+<svg viewBox="0 0 350 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Desktop / PC Icon -->
+  <g fill="#1a1a1a">
+    <!-- Tower -->
+    <rect x="20" y="30" width="35" height="75" rx="3" />
+    <!-- Tower vents/drives -->
+    <line x1="26" y1="38" x2="49" y2="38" stroke="#ffffff" stroke-width="2"/>
+    <line x1="26" y1="44" x2="49" y2="44" stroke="#ffffff" stroke-width="2"/>
+    <line x1="26" y1="50" x2="49" y2="50" stroke="#ffffff" stroke-width="2"/>
+    <line x1="26" y1="56" x2="49" y2="56" stroke="#ffffff" stroke-width="2"/>
+    
+    <!-- Monitor Bezel -->
+    <rect x="65" y="30" width="90" height="60" rx="4" />
+    <!-- Monitor Screen -->
+    <rect x="70" y="35" width="80" height="50" fill="#ffffff" />
+    <!-- Stand Neck -->
+    <rect x="100" y="90" width="20" height="15" />
+    <!-- Stand Base -->
+    <rect x="75" y="105" width="70" height="5" rx="2" />
+    
+    <!-- Keyboard -->
+    <path d="M 50 118 L 155 118 L 165 128 L 40 128 Z" />
+    <path d="M 55 123 L 150 123" stroke="#ffffff" stroke-width="1.5" />
+    
+    <!-- Mouse -->
+    <rect x="175" y="120" width="12" height="8" rx="4" />
+  </g>
+
+  <!-- Blue 'LR' Custom Shape -->
+  <g fill="#007cc3">
+    <!-- Vertical Stem -->
+    <rect x="220" y="10" width="22" height="95" />
+    <!-- R Top Loop -->
+    <path d="M 242 10 h 45 c 20 0 32 12 32 25 c 0 13 -12 25 -32 25 h -45 v -20 h 45 c 8 0 10 -3 10 -5 c 0 -2 -2 -5 -10 -5 h -45 v -20 z" />
+    <!-- L Bottom / R Leg continuous stroke -->
+    <path d="M 242 70 h 35 c 10 0 15 5 15 15 v 20 h 22 v -20 c 0 -15 -10 -35 -37 -35 h -35 v 20 z" />
+  </g>
+  
+  <!-- GROUP Text -->
+  <text x="210" y="130" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="28" fill="#ffde00" letter-spacing="1">GROUP</text>
+</svg>
